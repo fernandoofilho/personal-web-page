@@ -1,5 +1,5 @@
 {
-  "homepage":"https://fernandoofilho.github.io/PERSONAL-WEB-PAGE",
+  "homepage": "https://fernandoofilho.github.io/personal-web-page",
   "name": "magic-patterns-vite-template",
   "version": "0.0.1",
   "private": true,
@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "npx vite",
     "build": "npx vite build",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "preview": "npx vite preview"
   },
